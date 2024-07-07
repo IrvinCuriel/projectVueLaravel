@@ -87,6 +87,7 @@ class UserController extends Controller
             return response()->json([
                 'error'=>true,
                 'mensaje' => 'No existe el Estudiante'
+                //test
             ]);
         }
     }
