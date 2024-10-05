@@ -17,6 +17,7 @@ class Estudiante extends Model
         'apellido',
         'foto',
     ];
+    
 
     public function cursos(){
         return $this->belongsToMany(Curso::class, "curso_estudiante");
